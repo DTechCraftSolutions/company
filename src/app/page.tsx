@@ -1,7 +1,11 @@
+import { BenefitComponent } from "@/components/sections/benefit";
+import { HomeComponent } from "@/components/sections/home";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <HomeComponent />
+      <BenefitComponent />
     </div>
   );
 }
