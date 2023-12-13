@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div>
       <HomeComponent />
-      <BenefitComponent />
+      <div className="md:pt-[20rem] pt-7">
+        <BenefitComponent />
+      </div>
     </div>
   );
 }
