@@ -6,7 +6,7 @@ interface CardProps {
 export function Card({ children, className }: CardProps) {
   return (
     <div
-      className={`Card shadow-md p-4 rounded-md border border-opacity-50 border-primary ${className}`}
+      className={`Card shadow-md p-4 rounded-xl border border-opacity-50 border-primary ${className}`}
     >
       {children}
     </div>
@@ -27,6 +27,6 @@ export function CardTitle({ children }: { children: React.ReactNode }) {
 
 export function CardContent({ children }: { children: React.ReactNode }) {
   return (
-    <div className="text-center CardContent text-secondary">{children}</div>
+    <div className="text-center CardContent text-lg text-secondary">{children}</div>
   );
 }

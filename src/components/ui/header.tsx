@@ -12,7 +12,7 @@ export function HeaderComponent() {
     const handleScroll = () => {
       if (window.scrollY > 550) {
         setScrolled(
-          "visible bg-secondary shadow-xl w-screen h-20 fixed z-[1000] "
+          "visible bg-secondary shadow-xl w-screen fixed z-[1000] "
         );
       }
       // if (window.scrollY < 750) {
