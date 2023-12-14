@@ -7,7 +7,7 @@ export function HomeComponent() {
     <div id="home">
       <VideoComponent />
       <div className="flex flex-col justify-center items-center">
-        <div className="flex justify-center 2xl:w-[50rem] 3xl:w-[60rem] md:w-[30rem] w-[18rem]  mt-5 md:mt-0">
+        <div className="flex justify-center 2xl:w-[50rem] 3xl:w-[80rem] md:w-[30rem] w-[18rem]  mt-5 md:mt-0">
           <Image src="/logo-home.png" alt="logo" width={1100} height={1100} />
         </div>
         <div>

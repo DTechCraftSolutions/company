@@ -10,12 +10,12 @@ export function HeaderComponent() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 550) {
-        setScrolled("visible bg-secondary shadow-xl w-screen fixed z-[1000] ");
+      if (window.scrollY > 1) {
+        setScrolled("bg-secondary shadow-xl w-screen fixed z-[1000] ");
       }
-      // if (window.scrollY < 750) {
-      //   setScrolled("invisible");
-      // }
+      if (window.scrollY < 1) {
+        setScrolled("bg-transparent");
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -29,7 +29,7 @@ export function HeaderComponent() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ delay: 0.1 }}
-      className={`${scrolled} "bg-secondary shadow-xl w-screen md:h-20 h-10 fixed z-[1000]
+      className={`${scrolled} "bg-secondary shadow-2xl w-screen md:h-20 h-10 fixed z-[1000]
        transition-all duration-700`}
     >
       <div

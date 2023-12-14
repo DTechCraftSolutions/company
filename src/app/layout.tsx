@@ -5,7 +5,7 @@ import { HeaderComponent } from "@/components/ui/header";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
-export const metoswaldadata: Metadata = {
+export const metadata: Metadata = {
   title: "DTechCraft Solutions",
 };
 
