@@ -1,5 +1,8 @@
 import { Card, CardContent, CardIcon, CardTitle } from "../ui/card";
-
+import { BookOutlined } from "@ant-design/icons";
+import { ToolOutlined } from "@ant-design/icons";
+import { DollarOutlined } from "@ant-design/icons";
+import { LockOutlined } from "@ant-design/icons";
 export function BenefitComponent() {
   return (
     <div className="w-full h-screen" id="benefit">
@@ -14,7 +17,11 @@ export function BenefitComponent() {
           </p>
           <div className="w-full md:px-4 2xl:px-0 flex flex-col lg:mt-16 gap-8 mt-5 lg:flex-row">
             <Card className="flex flex-col h-80 py-12 items-center">
-              <CardIcon>🧑‍💼</CardIcon>
+              <CardIcon>
+                <div className="text-[20px] text-primary">
+                  <BookOutlined />
+                </div>
+              </CardIcon>
               <CardTitle>Treinamento</CardTitle>
               <CardContent>
                 Maximize seu potencial com treinamento especializado. Desenvolva
@@ -22,7 +29,11 @@ export function BenefitComponent() {
               </CardContent>
             </Card>
             <Card className="flex flex-col h-80 py-12 items-center">
-              <CardIcon>🧑‍💼</CardIcon>
+              <CardIcon>
+                <div className="text-[20px] text-primary">
+                  <ToolOutlined />
+                </div>
+              </CardIcon>
               <CardTitle>Suporte Prioritário</CardTitle>
               <CardContent>
                 Suporte prioritário exclusivo para parceiros: respostas rápidas
@@ -30,7 +41,11 @@ export function BenefitComponent() {
               </CardContent>
             </Card>
             <Card className="flex flex-col h-80 py-12 items-center">
-              <CardIcon>🧑‍💼</CardIcon>
+              <CardIcon>
+                <div className="text-[20px] text-primary">
+                  <DollarOutlined />
+                </div>
+              </CardIcon>
               <CardTitle>Preço Justo</CardTitle>
               <CardContent>
                 Preços irresistíveis para um valor que vai além das
@@ -39,7 +54,11 @@ export function BenefitComponent() {
               </CardContent>
             </Card>
             <Card className="flex flex-col h-80 py-12 items-center">
-              <CardIcon>🧑‍💼</CardIcon>
+              <CardIcon>
+                <div className="text-[20px] text-primary">
+                  <LockOutlined />
+                </div>
+              </CardIcon>
               <CardTitle>Segurança e Privacidade</CardTitle>
               <CardContent>
                 Segurança e privacidade garantidas. Seus dados, nossa

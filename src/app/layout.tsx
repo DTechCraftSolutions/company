@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { HeaderComponent } from "@/components/ui/header";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metoswaldadata: Metadata = {
   title: "DTechCraft Solutions",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-Br">
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <HeaderComponent />
         {children}
       </body>
