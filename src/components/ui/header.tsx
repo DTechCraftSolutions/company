@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { MenuOutlined } from "@ant-design/icons";
+import { MenuDrawerComponent } from "../antd/drawer";
 
 export function HeaderComponent() {
   const [scrolled, setScrolled] = useState("invisible");
@@ -11,9 +11,7 @@ export function HeaderComponent() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 550) {
-        setScrolled(
-          "visible bg-secondary shadow-xl w-screen fixed z-[1000] "
-        );
+        setScrolled("visible bg-secondary shadow-xl w-screen fixed z-[1000] ");
       }
       // if (window.scrollY < 750) {
       //   setScrolled("invisible");
@@ -42,9 +40,8 @@ export function HeaderComponent() {
           <Image src="/logo-header.png" alt="logo" width={100} height={100} />
         </div>
         <div>
-          <div className="md:hidden -mt-9 text-white cursor-pointer">
-            <MenuOutlined />
-          </div>
+          <MenuDrawerComponent />
+
           <ul className="hidden md:flex gap-10 text-white font-bold">
             <Link href="/#benefit">
               <li className="hover:text-primary transition-all duration-300">
