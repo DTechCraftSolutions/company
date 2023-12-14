@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <HomeComponent />
-      <div className="md:pt-[20rem] pt-7">
+      <div className="2xl:pt-[27rem] lg:pt-[5rem] pt-7">
         <BenefitComponent />
       </div>
     </div>

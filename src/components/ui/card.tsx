@@ -27,6 +27,8 @@ export function CardTitle({ children }: { children: React.ReactNode }) {
 
 export function CardContent({ children }: { children: React.ReactNode }) {
   return (
-    <div className="text-center CardContent text-lg text-secondary">{children}</div>
+    <div className="text-center CardContent   md:text-lg text-secondary">
+      {children}
+    </div>
   );
 }
