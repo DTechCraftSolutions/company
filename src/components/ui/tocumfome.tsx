@@ -16,7 +16,7 @@ export function ToCumFomeContentComponent() {
           <div className="lg:w-1/2">
             <p
               className="flex justify-center lg:pt-24 py-10 lg:py-0 text-secondary 
-              lg:text-start lg:text-xl text-center text-lg  "
+                lg:text-start lg:text-xl text-center text-lg  "
             >
               Transforme a experiência de delivery da sua empresa com o To Cum
               Fome. Oferecemos um sistema integrado com pagamento online,
