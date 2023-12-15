@@ -30,7 +30,7 @@ export function HomeComponent() {
         </div>
         <div className="lg:pt-14 2xl:pt-20 pt-5">
           <Button>
-            <ButtonText>Teste Agora</ButtonText>
+            <ButtonText color="secondary">Teste Agora</ButtonText>
           </Button>
         </div>
       </div>

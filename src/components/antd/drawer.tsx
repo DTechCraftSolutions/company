@@ -39,7 +39,7 @@ export function MenuDrawerComponent() {
               Benefícios
             </li>
           </Link>
-          <Link href="/#home" onClick={onClose}>
+          <Link href="/#demonstration" onClick={onClose}>
             <li className="hover:text-primary transition-all duration-300">
               Demonstração
             </li>

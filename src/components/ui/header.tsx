@@ -48,7 +48,7 @@ export function HeaderComponent() {
                 Benefícios
               </li>
             </Link>
-            <Link href="/#home">
+            <Link href="/#demonstration">
               <li className="hover:text-primary transition-all duration-300">
                 Demonstração
               </li>
