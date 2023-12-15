@@ -29,7 +29,7 @@ export function HeaderComponent() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ delay: 0.1 }}
-      className={`${scrolled} "bg-secondary shadow-2xl w-screen md:h-20 h-10 fixed z-[1000]
+      className={`${scrolled} "bg-secondary bg-opacity-95 shadow-2xl w-screen md:h-20 h-10 fixed z-[1000]
        transition-all duration-700`}
     >
       <div
