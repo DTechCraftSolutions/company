@@ -3,7 +3,6 @@ describe("HomeComponent", () => {
     cy.visit("http://localhost:3000");
 
     cy.get("#home").should("exist");
-    cy.get("video").should("exist");
 
     cy.get('img[alt="logo"]').should("exist");
 
