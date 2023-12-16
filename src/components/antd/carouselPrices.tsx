@@ -1,6 +1,7 @@
 import { Carousel } from "antd";
 import { ToCumFomePrice } from "../ui/tocumfomePrice";
 import { CarouselSwiperComponent } from "../swiper/carousel-swiper";
+import { BarberHubPrices } from "../ui/barberHubPrices";
 
 export function CarouselPrices() {
   return (
@@ -11,7 +12,7 @@ export function CarouselPrices() {
       <CarouselSwiperComponent
         key={Math.random()}
         className="md:h-[52rem] h-[55rem] cursor-pointer"
-        children={[<ToCumFomePrice />, <ToCumFomePrice />]}
+        children={[<ToCumFomePrice />, <BarberHubPrices />]}
       />
     </div>
   );
