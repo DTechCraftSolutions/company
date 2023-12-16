@@ -19,9 +19,13 @@ export function Button({ children }: ButtonProps) {
   );
 }
 
-export function ButtonText({ children }: ButtonProps) {
+interface ButtonTextProps extends ComponentProps<"span"> {
+  children: string;
+  color: string;
+}
+export function ButtonText({ children, color }: ButtonTextProps) {
   return (
-    <span className="text-secondary lg:text-xl text-sm font-bold">
+    <span className={`text-${color} lg:text-xl text-sm font-bold`}>
       {children}
     </span>
   );
