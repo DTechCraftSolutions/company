@@ -3,14 +3,14 @@ import { Button, ButtonText } from "./button-home";
 import { Montserrat } from "next/font/google";
 
 const montSerrat = Montserrat({ subsets: ["latin"] });
-export function ToCumFomeContentComponent() {
+export function BarberHubContentComponent() {
   return (
     <>
       <div className={`${montSerrat.className}`}>
         <div className="flex flex-col gap-10 justify-center lg:flex lg:flex-row lg:justify-between items-center mt-[5rem] ">
           <div className="w-[20rem] lg:w-1/2">
             <Image
-              src="/tocumfome.png"
+              src="/barber-hub-image.png"
               quality={100}
               alt="image-demonstration"
               width={1920}
@@ -20,16 +20,15 @@ export function ToCumFomeContentComponent() {
           <div className="lg:w-1/2">
             <div className="flex justify-center items-center">
               <Image
-                width={300}
-                height={300}
+                src="/"
                 quality={100}
-                className="mx-auto"
-                src="/plan-tocumfome.png"
+                width={1920}
+                height={1080}
                 alt="icon"
               />
             </div>
             <p
-              className="flex justify-center  pb-10 lg:py-0 text-secondary 
+              className="flex justify-center lg:pt-24 pb-10 lg:py-0 text-secondary 
                 lg:text-start lg:text-xl text-center text-lg"
             >
               Transforme a experiência de delivery da sua empresa com o To Cum
