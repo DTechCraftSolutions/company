@@ -27,3 +27,6 @@ jobs:
         with:
           build: npm run build
           start: npm run start
+
+      - name: Run ESLint with --no-verify
+        run: npm run lint -- --no-verify

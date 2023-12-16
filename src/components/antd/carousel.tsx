@@ -13,6 +13,7 @@ export function CarouselComponent() {
     // </Carousel>
     <div>
       <CarouselSwiperComponent
+        key={Math.random()}
         className="md:h-[45rem] h-[55rem] cursor-pointer"
         children={[
           <ToCumFomeContentComponent />,
