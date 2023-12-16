@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        home: "url('/image-company-video.png')",
+      },
       screens: {
         xs: "480px",
         sm: "640px",
