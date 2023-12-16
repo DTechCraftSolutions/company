@@ -7,7 +7,10 @@ export function BarberHubContentComponent() {
   return (
     <>
       <div className={`${montSerrat.className}`}>
-        <div className="flex flex-col gap-10 justify-center lg:flex lg:flex-row lg:justify-between items-center mt-[5rem] ">
+        <div
+          className="flex flex-col justify-center lg:flex lg:flex-row 
+        lg:justify-between items-center mt-[3rem] "
+        >
           <div className="w-[20rem] lg:w-1/2">
             <Image
               src="/barber-hub-image.png"
@@ -20,24 +23,24 @@ export function BarberHubContentComponent() {
           <div className="lg:w-1/2">
             <div className="flex justify-center items-center">
               <Image
-                src="/"
+                src="/barber-hub-price.png"
                 quality={100}
-                width={1920}
-                height={1080}
+                width={300}
+                height={300}
                 alt="icon"
               />
             </div>
             <p
-              className="flex justify-center lg:pt-24 pb-10 lg:py-0 text-secondary 
+              className="flex justify-center pb-6 md:pb-10 lg:py-0 text-secondary 
                 lg:text-start lg:text-xl text-center text-lg"
             >
-              Transforme a experiência de delivery da sua empresa com o To Cum
-              Fome. Oferecemos um sistema integrado com pagamento online,
-              acompanhamento de pedidos em tempo real e a conveniência da
-              emissão automática do resumo para seus clientes. Simplifique suas
-              operações, melhore a eficiência e fortaleça a satisfação do
-              cliente. Adote o To Cum Fome e leve sua entrega para o próximo
-              nível!
+              Descubra o futuro da gestão de barbearias com o BarberHub! Uma
+              plataforma revolucionária que une abrangência, qualidade e
+              praticidade em um só lugar. Automatize seu negócio, ofereça
+              agendamentos sem esforço, tenha uma loja virtual integrada para
+              ampliar suas vendas, e proporcione um atendimento excepcional aos
+              seus clientes. Simplifique sua vida profissional enquanto eleva a
+              experiência de cada corte!
             </p>
           </div>
         </div>

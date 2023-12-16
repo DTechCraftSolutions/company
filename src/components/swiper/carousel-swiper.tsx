@@ -1,4 +1,10 @@
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -17,8 +23,9 @@ export function CarouselSwiperComponent({ children, className }: SwiperProps) {
       <Swiper
         className={`${className}`}
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+        pagination
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         slidesPerView={1}

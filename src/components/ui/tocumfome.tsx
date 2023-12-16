@@ -10,7 +10,7 @@ export function ToCumFomeContentComponent() {
         <div className="flex flex-col gap-10 justify-center lg:flex lg:flex-row lg:justify-between items-center mt-[5rem] ">
           <div className="w-[20rem] lg:w-1/2">
             <Image
-              src="/tocumfome.png"
+              src={"/tocumfome.png"}
               quality={100}
               alt="image-demonstration"
               width={1920}
