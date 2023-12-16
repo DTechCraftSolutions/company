@@ -53,7 +53,7 @@ export function HeaderComponent() {
                 Demonstração
               </li>
             </Link>
-            <Link href="/#home">
+            <Link href="/#prices">
               <li className="hover:text-primary transition-all duration-300">
                 Preços
               </li>
