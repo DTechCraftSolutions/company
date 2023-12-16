@@ -44,7 +44,7 @@ export function MenuDrawerComponent() {
               Demonstração
             </li>
           </Link>
-          <Link href="/#home" onClick={onClose}>
+          <Link href="/#prices" onClick={onClose}>
             <li className="hover:text-primary transition-all duration-300">
               Preços
             </li>
