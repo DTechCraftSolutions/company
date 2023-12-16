@@ -9,18 +9,18 @@ import { Montserrat } from "next/font/google";
 
 const montSerrat = Montserrat({ subsets: ["latin"] });
 
-export function ToCumFomePrice() {
+export function BarberHubPrices() {
   return (
     <div className={`w-full h-[120vh] 3xl:h-screen ${montSerrat.className}`}>
       <Image
         width={300}
         height={300}
         quality={100}
-        className="mx-auto imageToCumFome"
-        src="/plan-tocumfome.png"
+        className="mx-auto imageBarberHub"
+        src="/barber-hub-price.png"
         alt="image-prices"
       />
-      <div className="lg:w-full lg:mx-0 mx-auto h-4/6 gap-5 w-[85%] max-h-full md:flex mt-9 grid grid-cols-2 justify-between ">
+      <div className="lg:w-full lg:mx-0 mx-auto h-4/6 gap-5 w-[85%] max-h-full md:flex grid grid-cols-2 justify-between ">
         <PriceCard className="lg:w-[22%] w-full h-full shadow-xl border border-primary border-opacity-50 rounded-lg">
           <PriceCardTitle>
             <p className="relative top-1 lg:top-3">Gratuito</p>
@@ -34,7 +34,7 @@ export function ToCumFomePrice() {
           <PriceCardTitle>
             <p className="relative  top-1 lg:top-3">Start</p>
           </PriceCardTitle>
-          <PriceCardAmount>R$ 59,90</PriceCardAmount>
+          <PriceCardAmount>R$ 44,90</PriceCardAmount>
           <PriceCardContent>
             <div></div>
           </PriceCardContent>
@@ -43,7 +43,7 @@ export function ToCumFomePrice() {
           <PriceCardTitle>
             <p className="relative  top-1 lg:top-3">Pro</p>
           </PriceCardTitle>
-          <PriceCardAmount>R$ 79,90</PriceCardAmount>
+          <PriceCardAmount>R$ 59,90</PriceCardAmount>
           <PriceCardContent>
             <div></div>
           </PriceCardContent>
@@ -52,7 +52,7 @@ export function ToCumFomePrice() {
           <PriceCardTitle>
             <p className="relative  top-1 lg:top-3">Premium</p>
           </PriceCardTitle>
-          <PriceCardAmount>R$ 99,90</PriceCardAmount>
+          <PriceCardAmount>R$ 79,90</PriceCardAmount>
           <PriceCardContent>
             <div></div>
           </PriceCardContent>

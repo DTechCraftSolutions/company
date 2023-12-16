@@ -3,6 +3,7 @@ import { Carousel } from "antd";
 import { ToCumFomeContentComponent } from "../ui/tocumfome";
 import { CarouselSwiperComponent } from "../swiper/carousel-swiper";
 import { divide } from "cypress/types/lodash";
+import { BarberHubContentComponent } from "../ui/barberHub";
 
 export function CarouselComponent() {
   return (
@@ -14,10 +15,10 @@ export function CarouselComponent() {
     <div>
       <CarouselSwiperComponent
         key={Math.random()}
-        className="md:h-[45rem] h-[55rem] cursor-pointer"
+        className="md:h-[45rem] h-[58rem] cursor-pointer"
         children={[
           <ToCumFomeContentComponent />,
-          <ToCumFomeContentComponent />,
+          <BarberHubContentComponent />,
         ]}
       />
     </div>

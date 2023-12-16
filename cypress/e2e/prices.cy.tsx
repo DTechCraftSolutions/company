@@ -8,7 +8,7 @@ describe("Prices Component", () => {
     cy.get(".swiper").should("exist");
   });
   it("should have 4 cards of prices", () => {
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 8; i++) {
       cy.get(".priceCard")
         .eq(i)
         .within(() => {
@@ -23,4 +23,7 @@ describe("Prices Component", () => {
   it("should exist image Tocumfome", () => {
     cy.get(".imageToCumFome").should("exist");
   });
+  it("should exist image barberHub", () => {
+    cy.get(".imageBarberHub").should("exist");
+  })
 });
