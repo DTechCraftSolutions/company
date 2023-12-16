@@ -17,7 +17,7 @@ export function ToCumFomePrice() {
                         R$ 0,00
                     </PriceCardAmount>
                     <PriceCardContent>
-
+                        <div></div>
                     </PriceCardContent>
                 </PriceCard>
                 <PriceCard className="lg:w-[22%] w-full border border-primary border-opacity-50 h-full shadow-xl rounded-lg">
@@ -25,9 +25,10 @@ export function ToCumFomePrice() {
                         <p className="relative  top-1 lg:top-3">Start</p>
                     </PriceCardTitle>
                     <PriceCardAmount>
-                    R$ 59,90
+                        R$ 59,90
                     </PriceCardAmount>
                     <PriceCardContent>
+                        <div></div>
                     </PriceCardContent>
                 </PriceCard>
                 <PriceCard className="lg:w-[22%] w-full h-full border border-primary border-opacity-50 shadow-xl rounded-lg">
@@ -35,11 +36,10 @@ export function ToCumFomePrice() {
                         <p className="relative  top-1 lg:top-3">Pro</p>
                     </PriceCardTitle>
                     <PriceCardAmount>
-                                        R$ 79,90
-
+                        R$ 79,90
                     </PriceCardAmount>
                     <PriceCardContent>
-
+                        <div></div>
                     </PriceCardContent>
                 </PriceCard>
                 <PriceCard className="lg:w-[22%] w-full  h-full border border-primary border-opacity-50 shadow-xl rounded-lg">
@@ -47,10 +47,10 @@ export function ToCumFomePrice() {
                         <p className="relative  top-1 lg:top-3">Premium</p>
                     </PriceCardTitle>
                     <PriceCardAmount>
-                    R$ 99,90
+                        R$ 99,90
                     </PriceCardAmount>
                     <PriceCardContent>
-
+                        <div></div>
                     </PriceCardContent>
                 </PriceCard>
             </div>
