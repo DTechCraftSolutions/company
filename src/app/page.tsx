@@ -34,7 +34,9 @@ export default function Home() {
           <div className="mt-[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
-          <PricesComponent />
+          <div className="3xl:mt-[5rem]">
+            <PricesComponent />
+          </div>
         </div>
       )}
     </div>
