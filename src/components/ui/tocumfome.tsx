@@ -1,13 +1,17 @@
 import Image from "next/image";
 import { Button, ButtonText } from "./button-home";
+import { Montserrat } from "next/font/google";
+
+const montSerrat = Montserrat({ subsets: ["latin"] });
 export function ToCumFomeContentComponent() {
   return (
     <>
-      <div>
-        <div className="flex flex-col justify-center lg:flex lg:flex-row lg:justify-between items-center mt-[5rem] ">
+      <div className={`${montSerrat.className}`}>
+        <div className="flex flex-col gap-10 justify-center lg:flex lg:flex-row lg:justify-between items-center mt-[5rem] ">
           <div className="w-[20rem] lg:w-1/2">
             <Image
               src="/tocumfome.png"
+              quality={100}
               alt="image-demonstration"
               width={1920}
               height={1080}

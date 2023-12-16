@@ -2,8 +2,12 @@
 import { BenefitComponent } from "@/components/sections/benefit";
 import { DemonstrationComponent } from "@/components/sections/demonstration";
 import { HomeComponent } from "@/components/sections/home";
+import { PricesComponent } from "@/components/sections/prices";
 import { SplashComponent } from "@/components/ui/splash";
+import { Montserrat } from "next/font/google";
 import { useEffect, useState } from "react";
+
+const montSerrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(true);
@@ -16,7 +20,7 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div>
+    <div className={`${montSerrat.className}`}>
       {showSplash ? (
         <div>
           <SplashComponent />
@@ -30,6 +34,7 @@ export default function Home() {
           <div className="mt-[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
+          <PricesComponent />
         </div>
       )}
     </div>
