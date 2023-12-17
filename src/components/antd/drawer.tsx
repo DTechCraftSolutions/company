@@ -49,7 +49,7 @@ export function MenuDrawerComponent() {
               Preços
             </li>
           </Link>
-          <Link href="/#home" onClick={onClose}>
+          <Link href="/#contact" onClick={onClose}>
             <li className="hover:text-primary transition-all duration-300">
               Contato
             </li>
