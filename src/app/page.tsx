@@ -1,5 +1,6 @@
 "use client";
 import { BenefitComponent } from "@/components/sections/benefit";
+import { ContactComponent } from "@/components/sections/contact";
 import { DemonstrationComponent } from "@/components/sections/demonstration";
 import { HomeComponent } from "@/components/sections/home";
 import { PricesComponent } from "@/components/sections/prices";
@@ -34,8 +35,11 @@ export default function Home() {
           <div className="mt-[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
-          <div className="3xl:mt-[5rem]">
+          <div className="3xl:mt-[5rem] 2xl:>mt-[0rem]">
             <PricesComponent />
+          </div>
+          <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[8rem]">
+            <ContactComponent />
           </div>
         </div>
       )}

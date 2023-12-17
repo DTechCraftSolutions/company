@@ -58,7 +58,7 @@ export function HeaderComponent() {
                 Preços
               </li>
             </Link>
-            <Link href="/#home">
+            <Link href="/#contact">
               <li className="hover:text-primary transition-all duration-300">
                 Contato
               </li>
