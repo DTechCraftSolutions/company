@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { HeaderComponent } from "@/components/ui/header";
-import { FooterComponent } from "@/components/sections/footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -20,7 +19,6 @@ export default function RootLayout({
       <body className={montserrat.className}>
         <HeaderComponent />
         {children}
-        <FooterComponent  />
       </body>
     </html>
   );

@@ -2,6 +2,7 @@
 import { BenefitComponent } from "@/components/sections/benefit";
 import { ContactComponent } from "@/components/sections/contact";
 import { DemonstrationComponent } from "@/components/sections/demonstration";
+import { FooterComponent } from "@/components/sections/footer";
 import { HomeComponent } from "@/components/sections/home";
 import { PricesComponent } from "@/components/sections/prices";
 import { SplashComponent } from "@/components/ui/splash";
@@ -40,6 +41,7 @@ export default function Home() {
           </div>
           <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[8rem]">
             <ContactComponent />
+            <FooterComponent />
           </div>
         </div>
       )}
