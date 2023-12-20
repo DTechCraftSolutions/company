@@ -23,7 +23,6 @@ export function CarouselSwiperComponent({ children, className }: SwiperProps) {
       <Swiper
         className={`${className}`}
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        pagination
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
