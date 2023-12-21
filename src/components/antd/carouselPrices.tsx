@@ -11,7 +11,7 @@ export function CarouselPrices() {
     <div>
       <CarouselSwiperComponent
         key={Math.random()}
-        className="md:h-[54rem] 2xl:h-[50.3rem] 3xl:h-[54rem] h-[55rem] cursor-pointer"
+        className="md:h-[54rem] 2xl:h-[50.3rem] 3xl:h-[54rem] h-screen mobile:h-screen cursor-pointer"
         children={[<ToCumFomePrice />, <BarberHubPrices />]}
       />
     </div>

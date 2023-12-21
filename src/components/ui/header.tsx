@@ -29,14 +29,14 @@ export function HeaderComponent() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ delay: 0.1 }}
-      className={`${scrolled} "bg-secondary bg-opacity-95 shadow-2xl w-screen md:h-20 h-10 fixed z-[1000]
+      className={`${scrolled} "bg-secondary bg-opacity-95 shadow-2xl w-screen md:h-20 h-16 fixed z-[1000]
        transition-all duration-700`}
     >
       <div
         className="flex justify-between items-center w-full h-20 max-w-[85%] lg:max-w-[1300px] mx-auto 
         "
       >
-        <div className="md:w-12 w-7 -mt-9 md:-mt-0">
+        <div className="md:w-12 w-7 -mt-6 md:-mt-0">
           <Image src="/logo-header.png" alt="logo" width={100} height={100} />
         </div>
         <div>

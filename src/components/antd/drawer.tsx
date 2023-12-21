@@ -18,7 +18,7 @@ export function MenuDrawerComponent() {
     <>
       <div
         onClick={showDrawer}
-        className="md:hidden -mt-8 text-white cursor-pointer"
+        className="md:hidden -mt-6  text-white cursor-pointer"
       >
         <MenuOutlined />
       </div>
