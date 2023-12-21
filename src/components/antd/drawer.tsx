@@ -26,7 +26,7 @@ export function MenuDrawerComponent() {
       <Drawer placement="left" onClose={onClose} open={open}>
         <ul
           className="flex flex-col justify-center items-center mt-14 space-y-28
-         text-secondary font-bold"
+         text-primary font-black"
         >
           <Link href="/#home" onClick={onClose}>
             <li className="hover:text-primary transition-all duration-300">

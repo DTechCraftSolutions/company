@@ -33,10 +33,12 @@ export default function Home() {
           <div className="3xl:mt-[20rem] 2xl:mt-[15rem] lg:mt-[5rem] mt-14">
             <BenefitComponent />
           </div>
+
           <div className="mt-[60rem] mobile:mt-[44rem] xs:mt[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
-          <div className="3xl:mt-[5rem] 2xl:mt-[0rem] mt-24 pt-14 mobile:mt-6">
+
+          <div className="3xl:mt-[5rem] 2xl:mt-[0rem] mt-28 pt-16 mobile:mt-7">
             <PricesComponent />
           </div>
           <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[2rem]">
