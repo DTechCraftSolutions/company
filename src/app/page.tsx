@@ -30,20 +30,20 @@ export default function Home() {
       ) : (
         <div>
           <HomeComponent />
-          <div className="3xl:mt-[20rem] 2xl:mt-[15rem] lg:mt-[5rem] mt-14">
+          <div className="3xl:mt-[20rem] 2xl:mt-[15rem] lg:mt-[15rem] sm:mt-[20rem] mt-14">
             <BenefitComponent />
           </div>
 
-          <div className="mt-[60rem] mobile:mt-[44rem] xs:mt[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
+          <div className="mt-[60rem] mobile:mt-[44rem] sm:-mt-[25rem] xs:mt[58rem] md:mt-[63rem] lg:mt-[10rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
 
-          <div className="3xl:mt-[5rem] 2xl:mt-[0rem] mt-28 pt-16 mobile:mt-7">
+          <div className="3xl:mt-[5rem] 2xl:mt-[0rem] sm:mt-20 mt-28 pt-16 mobile:mt-7">
             <PricesComponent />
           </div>
           <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[2rem]">
             <ContactComponent />
-            <div className="mt-24 md:mt-[13rem] bg-secondary h-screen md:h-full mobie:mt-0 mobile:pt-0">
+            <div className="mt-24 md:mt-[13rem] bg-secondary h-screen lg:h-full mobie:mt-0 mobile:pt-0">
               <FooterComponent />
             </div>
           </div>
