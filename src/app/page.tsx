@@ -36,10 +36,10 @@ export default function Home() {
           <div className="mt-[65rem]  mobile:mt-[50rem] xs:mt[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
-          <div className="3xl:mt-[5rem] 2xl:>mt-[0rem]">
+          <div className="3xl:mt-[5rem] 2xl:mt-[0rem]">
             <PricesComponent />
           </div>
-          <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[8rem]">
+          <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[2rem]">
             <ContactComponent />
             <FooterComponent />
           </div>
