@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[2rem]">
             <ContactComponent />
-            <div className="mt-20 bg-secondary  mobie:mt-0 mobile:pt-0">
+            <div className="mt-20 md:mt-[13rem] bg-secondary h-screen mobie:mt-0 mobile:pt-0">
               <FooterComponent />
             </div>
           </div>
