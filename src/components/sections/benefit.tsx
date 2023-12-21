@@ -7,7 +7,7 @@ export function BenefitComponent() {
   return (
     <div className="w-full h-screen" id="benefit">
       <div className="w-full h-full max-w-full">
-        <div className="w-full md:mt-10  lg:mt-0  rounded-t-3xl max-w-[85%] lg:max-w-[1300px] pt-24 mx-auto">
+        <div className="w-full md:mt-10  lg:mt-0  rounded-t-3xl max-w-[85%] lg:max-w-[1000px] mx-auto xl:max-w-[1280px] pt-24">
           <h1 className="text-primary  px-4 lg:text-start md:text-4xl w-full text-center text-xl font-black mb-5">
             Descubra os Benefícios
           </h1>
@@ -16,7 +16,7 @@ export function BenefitComponent() {
             negócio. Conheça as razões que fazem toda a diferença.
           </p>
           <div className="w-full h-screen md:px-4 2xl:px-0 flex flex-col lg:mt-16 gap-8 mt-5 lg:flex-row">
-            <Card className="flex flex-col h-80 py-12 items-center">
+            <Card className="flex flex-col h-80 lg:h-[28rem] xl:h-80  py-12 items-center">
               <CardIcon>
                 <div className="text-[20px] text-primary">
                   <BookOutlined />
@@ -28,7 +28,7 @@ export function BenefitComponent() {
                 suas habilidades e alcance o sucesso com nossos sistemas.
               </CardContent>
             </Card>
-            <Card className="flex flex-col h-80 py-12 items-center">
+            <Card className="flex flex-col  h-80 lg:h-[28rem] xl:h-80  py-12 items-center">
               <CardIcon>
                 <div className="text-[20px] text-primary">
                   <ToolOutlined />
@@ -40,7 +40,7 @@ export function BenefitComponent() {
                 e soluções eficientes. Estamos aqui para otimizar sua jornada.
               </CardContent>
             </Card>
-            <Card className="flex flex-col h-80 py-12 items-center">
+            <Card className="flex flex-col  h-80 lg:h-[28rem] xl:h-80  py-12 items-center">
               <CardIcon>
                 <div className="text-[20px] text-primary">
                   <DollarOutlined />
@@ -53,7 +53,7 @@ export function BenefitComponent() {
                 oportunidade!
               </CardContent>
             </Card>
-            <Card className="flex flex-col h-80 py-12 items-center">
+            <Card className="flex flex-col h-80 lg:h-[28rem] xl:h-80  py-12 items-center">
               <CardIcon>
                 <div className="text-[20px] text-primary">
                   <LockOutlined />

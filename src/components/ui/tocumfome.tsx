@@ -42,7 +42,7 @@ export function ToCumFomeContentComponent() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center lg:pt-20 xl:pt-0">
           <button className="w-[92%] md:w-[40%] py-2 md:py-4 bg-primary text-white font-bold md:text-xl rounded-full hover:bg-opacity-80 transition-colors duration-300">
             Experimente grátis
           </button>
