@@ -33,10 +33,10 @@ export default function Home() {
           <div className="3xl:mt-[20rem] 2xl:mt-[15rem] lg:mt-[5rem] mt-8">
             <BenefitComponent />
           </div>
-          <div className="mt-[65rem] pt-10 mobile:mt-[50rem] xs:mt[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
+          <div className="mt-[60rem] mobile:mt-[44rem] xs:mt[58rem] md:mt-[63rem] 3xl:-mt-[18rem] 2xl:-mt-[5rem]">
             <DemonstrationComponent />
           </div>
-          <div className="3xl:mt-[5rem] 2xl:mt-[0rem] mt-24 pt-0 mobile:pt-1">
+          <div className="3xl:mt-[5rem] 2xl:mt-[0rem] mt-24  pt-0 mobile:mt-1">
             <PricesComponent />
           </div>
           <div className="3xl:mt-[18rem] 2xl:mt-[5rem] -mt-[2rem]">

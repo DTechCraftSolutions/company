@@ -15,7 +15,7 @@ export function BenefitComponent() {
             Descubra por que nossos sistemas são a escolha ideal para o seu
             negócio. Conheça as razões que fazem toda a diferença.
           </p>
-          <div className="w-full md:px-4 2xl:px-0 flex flex-col lg:mt-16 gap-8 mt-5 lg:flex-row">
+          <div className="w-full h-screen md:px-4 2xl:px-0 flex flex-col lg:mt-16 gap-8 mt-5 lg:flex-row">
             <Card className="flex flex-col h-80 py-12 items-center">
               <CardIcon>
                 <div className="text-[20px] text-primary">
