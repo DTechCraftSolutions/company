@@ -14,8 +14,8 @@ export function FooterComponent() {
        bg-secondary`}
     >
       <div
-        className="h-full mx-auto flex max-w-[85%] flex-col lg:grid lg:grid-cols-4
-       lg:max-w-[1300px]"
+        className="h-full px-4  flex max-w-[85%] flex-col lg:grid lg:grid-cols-4
+        lg:max-w-[1000px] mx-auto xl:max-w-[1280px]"
       >
         <div className=" lg:h-full ">
           <Image

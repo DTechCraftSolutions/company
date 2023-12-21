@@ -6,7 +6,7 @@ export function ContactComponent() {
       id="contact"
       className="w-full h-[140vh] mobile:h-[110vh] 3xl:h-screen mt-[6rem] 3xl:-mt-56"
     >
-      <div className="w-full h-full max-w-[1300px] mx-auto">
+      <div className="w-full h-full lg:max-w-[1000px] mx-auto xl:max-w-[1280px]">
         <h1 className="text-primary px-4 lg:text-start md:text-4xl w-full text-center text-xl font-black mb-16">
           Contato
         </h1>

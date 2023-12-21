@@ -13,7 +13,7 @@ export function FormContactContentComponent() {
             Nome
           </label>
           <input
-            className="ml-7 md:ml-4 mt-5 shadow appearance-none border border-primary rounded-lg w-[85%] md:w-[70%] py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="ml-7 md:ml-4 mt-5 shadow appearance-none border border-primary rounded-lg w-[85%] xl:w-[70%]  py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
             type="text"
             placeholder="Nome"
@@ -27,7 +27,7 @@ export function FormContactContentComponent() {
             Email
           </label>
           <input
-            className="ml-7 md:ml-4 mt-5 shadow appearance-none border border-primary rounded-lg  w-[85%] md:w-[70%] py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="ml-7 md:ml-4 mt-5 shadow appearance-none border border-primary rounded-lg  w-[85%] xl:w-[70%] py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
             placeholder="Email"
@@ -41,7 +41,7 @@ export function FormContactContentComponent() {
             Digite sua mensagem
           </label>
           <textarea
-            className="ml-7 md:ml-4 mt-5 shadow appearance-none border border-primary rounded-lg w-[85%] md:w-[70%] h-[20rem] py-4 px-4 text-secondary leading-tight focus:outline-none focus:shadow-outline"
+            className="ml-7 md:ml-4 mt-5 shadow appearance-none border border-primary rounded-lg w-[85%] xl:w-[70%] h-[20rem] py-4 px-4 text-secondary leading-tight focus:outline-none focus:shadow-outline"
             id="message"
             placeholder="Mensagem"
           ></textarea>

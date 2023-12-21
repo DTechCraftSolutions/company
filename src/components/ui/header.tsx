@@ -33,7 +33,7 @@ export function HeaderComponent() {
        transition-all duration-700`}
     >
       <div
-        className="flex justify-between items-center w-full h-20 max-w-[85%] lg:max-w-[1300px] mx-auto 
+        className="flex justify-between items-center w-full h-20 max-w-[85%] lg:max-w-[1000px] mx-auto xl:max-w-[1280px]
         "
       >
         <div className="md:w-12 w-7 -mt-6 md:-mt-0">
