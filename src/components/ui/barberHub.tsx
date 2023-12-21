@@ -45,9 +45,9 @@ export function BarberHubContentComponent() {
           </div>
         </div>
         <div className="flex justify-center">
-          <Button>
-            <ButtonText color="white">Experimente Grátis</ButtonText>
-          </Button>
+          <button className="w-[92%] md:w-[40%] py-2 md:py-4 bg-primary text-white font-bold md:text-xl rounded-full hover:bg-opacity-80 transition-colors duration-300">
+            Experimente grátis
+          </button>
         </div>
       </div>
     </>
