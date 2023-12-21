@@ -10,7 +10,7 @@ export function FooterComponent() {
   return (
     <footer
       id="footer"
-      className={`${montSerrat.className} w-full h-[105vh] mobile:h-[80vh] lg:h-[20rem] py-2 mt-20
+      className={`${montSerrat.className} w-full h-full md:mt-2 md:pt-2 mobile:h-[80vh] lg:h-[20rem] py-2 mt-20
        bg-secondary`}
     >
       <div
